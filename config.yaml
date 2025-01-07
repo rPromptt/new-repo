@@ -1,0 +1,11 @@
+snowflake:
+  account: paccar
+  role: SVC_DAF_53140_CA_ANALYTICS_DWH
+  warehouse: DAF_EHV_53_140_XSMALL_WH #Other sizes available. Tony recommended starting small and working up. Sizing is based on computing power required.
+  sa:
+    username: SNOWFLAKE_USER # put env variable name of service account
+    password: SNOWFLAKE_PASSWORD # put env variable for service account password (these will be in your .bashrc or you can use a .env file and loadenv())
+  sso:
+    username: # kingsley.nwosu@leyland-trucks.co.uk
+  database: DAF_DB
+  schema: CA_ANALYTICS_DWH

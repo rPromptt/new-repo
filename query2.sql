@@ -1,0 +1,2 @@
+select* from "DAF_DB"."DAF_CONNECT"."Z_DM1_INJECTOR_RAISED_CLEARED"
+limit 5;
